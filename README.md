@@ -48,7 +48,7 @@ $ bash Step5.1_test_on_TCGA_data.sh
 $ bash Step5.2_test_on_CCLE_data.sh  
 
 ### 4.5. screening drugs for TCGA patients
-bash Step5.3_screening_drugs_for_TCGA_patients.sh  
+$ bash Step5.3_screening_drugs_for_TCGA_patients.sh  
 
 ### 4.6. predicting CDRs of a drug  
 $ python Step6_CDR_prediction.py  
