@@ -7,7 +7,7 @@
 **TransCDR** achieves state-of-the-art results of predicting CDRs in various scenarios. More importantly, **TransCDR** is shown to be effective in the external dataset: CCLE and TCGA. In summary, **TransCDR** could be a powerful tool for cancer drug response prediction and has promising prospects in precision medicine and drug discovery.
 
 ## 2. TransCDR
-![contents](https://github.com/RGNil/2020MCM_paper/blob/master/contents.png)(docs/fig1-update.png "TransCDR")
+![contents](https://github.com/XiaoqiongXia/TransCDR/blob/master/image/Figure_Workflow.tif)(docs/fig1-update.png "TransCDR")
 Figure 1: The overall architecture of **TransCDR**.
 
 ## 3. Installation
