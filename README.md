@@ -25,14 +25,12 @@ pip install fitlog
 ## 4. Usage
 ### 4.1. Data
 All datasets used in the project are located at https://zenodo.org/deposit/new. You shoud download and unzip the result.7z and put it in the current directory.  
-The data split script for TransCDR is located at folder script/  
+The script of data segmentation strategies for CV10 is located at folder script/  
 
 cd script  
 $ bash Step1_data_split.sh  
  
 ### 4.2. CV10 for TransCDR  
-The CV10 script for TransCDR is located at folder script/  
-
 $ bash Step2_TransCDR_CV10.sh 
 
 get the CV10 results  
