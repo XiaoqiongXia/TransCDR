@@ -13,26 +13,16 @@ Figure 1: The overall architecture of **TransCDR**.
 
 ## 3. Installation
 **TransCDR** depends on the following packages, you must have them installed before using **TransCDR**.
-conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=10.2 -c pytorch
-
-conda install -c dglteam/label/cu102 dgl
-
-conda install -c rdkit rdkit
-
-pip install dgllife
-
-pip install matplotlib
-
-pip install seaborn
-
-pip install lifelines
-
-pip install prettytable
-
-pip install pubchempy
-
-pip install fitlog
-
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=10.2 -c pytorch  
+conda install -c dglteam/label/cu102 dgl  
+conda install -c rdkit rdkit  
+pip install dgllife  
+pip install matplotlib  
+pip install seaborn  
+pip install lifelines  
+pip install prettytable  
+pip install pubchempy  
+pip install fitlog  
 ## 4. Usage
 ### 4.1. Data
 All datasets used in the project are located at https://zenodo.org/deposit/new. You shoud download and unzip the data.7z and put it in the current directory.
