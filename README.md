@@ -26,12 +26,15 @@ pip install fitlog
 ### 4.1. Data
 All datasets used in the project are located at https://zenodo.org/deposit/new. You shoud download and unzip the result.7z and put it in the current directory.  
 The data split script for TransCDR is located at folder script/  
+
 cd script  
 $ bash Step1_data_split.sh  
  
 ### 4.2. CV10 for TransCDR  
 The CV10 script for TransCDR is located at folder script/  
-$ bash Step2_TransCDR_CV10.sh  
+
+$ bash Step2_TransCDR_CV10.sh 
+
 get the CV10 results  
 $ bash Step3_CV10_result.sh  
 
@@ -40,6 +43,7 @@ $ Step4_Train_final_model.sh
 
 ### 4.4. test the trained TransCDR on TCGA and CCLE  
 The pre-trained TransCDR models are located at https://zenodo.org/deposit/new. You shoud download and unzip the data.7z and put it in the current directory.    
+
 $ Step5.1_test_on_TCGA_data.sh  
 $ Step5.2_test_on_CCLE_data.sh  
 
