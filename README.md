@@ -11,7 +11,7 @@
 Figure 1: The overall architecture of **TransCDR**.
 
 ## 3. Installation
-**TransCDR** depends on the following packages, you must have them installed before using **TransCDR**.
+**TransCDR** depends on the following packages, you must have them installed before using **TransCDR**.  
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=10.2 -c pytorch  
 conda install -c dglteam/label/cu102 dgl  
 conda install -c rdkit rdkit  
@@ -36,20 +36,20 @@ get the CV10 results
 $ bash Step3_CV10_result.sh  
 
 ### 4.3. Training the final TransCDR
-$ Step4_Train_final_model.sh
+$ Step4_Train_final_model.sh  
 
 ### 4.4. test the trained TransCDR on TCGA and CCLE
-The pre-trained TransCDR models are located at https://zenodo.org/deposit/new. You shoud download and unzip the data.7z and put it in the current directory.  
+The pre-trained TransCDR models are located at https://zenodo.org/deposit/new. You shoud download and unzip the data.7z and put it in the current directory.    
 $ Step5.1_test_on_TCGA_data.sh
 $ Step5.2_test_on_CCLE_data.sh
 
 ### 4.5. predicting CDRs of a drug
-$ python Step6_CDR_prediction.py
+$ python Step6_CDR_prediction.py  
 
 ## 5. Contact
 
-**Xiaoqiong Xia** < 19111510052@fudan.edu.cn >
+**Xiaoqiong Xia** < 19111510052@fudan.edu.cn >  
 
-Department of the Institutes of Biomedical Sciences at Fudan University.
+Department of the Institutes of Biomedical Sciences at Fudan University.  
 
 
