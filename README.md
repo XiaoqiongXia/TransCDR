@@ -31,6 +31,7 @@ cd script
 $ bash Step1_data_split.sh  
  
 ### 4.2. CV10 for TransCDR  
+train the TransCDR under various scenarios  
 $ bash Step2_TransCDR_CV10.sh 
 
 get the CV10 results  
