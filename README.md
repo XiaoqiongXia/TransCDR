@@ -2,9 +2,9 @@
 -----------------------------------------------------------------
 
 ## 1. Introduction
-**TransCDR** is a Python implementation of a deep learning model for enhancing the generalizability of cancer drug response prediction through transfer learning and multimodal data fusion. 
+**TransCDR** is a Python implementation of a deep learning model for enhancing the generalizability of cancer drug response prediction through transfer learning and multimodal data fusion for drug representation. 
 
-**TransCDR** achieves state-of-the-art results of predicting CDRs in various scenarios. More importantly, **TransCDR** is shown to be effective in the external dataset: CCLE and TCGA. In summary, **TransCDR** could be a powerful tool for cancer drug response prediction and has promising prospects in precision medicine and drug discovery.
+**TransCDR** achieves state-of-the-art results of predicting CDRs in various scenarios. More importantly, **TransCDR** is shown to be effective in the external dataset: CCLE. In summary, **TransCDR** could be a powerful tool for cancer drug response.
 
 ## 2. TransCDR
 Figure 1: The overall architecture of **TransCDR** is located at image/
@@ -23,7 +23,7 @@ pip install pubchempy
 pip install fitlog  
 ## 4. Usage
 ### 4.1. Data
-All datasets used in the project are located at [https://zenodo.org/deposit/new](https://doi.org/10.5281/zenodo.7912778). You shoud download and unzip the result.7z and put it in the current directory.  
+All datasets used in the project are located at [https://zenodo.org/deposit/new](https://zenodo.org/record/7912778). You shoud download and unzip the result.7z and put it in the current directory.  
 The script of data segmentation strategies for CV10 is located at folder script/  
 
 cd script  
