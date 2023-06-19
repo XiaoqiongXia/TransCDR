@@ -42,10 +42,10 @@ $ bash Step4_Train_final_model.sh
 ### 4.4. test the trained TransCDR on CCLE
 The pre-trained TransCDR models are located at [https://zenodo.org/deposit/new](https://doi.org/10.5281/zenodo.7912778). You shoud download and unzip the data.7z and put it in the current directory.    
 
-$ bash Step5.2_test_on_CCLE_data.sh  
+$ bash Step5.1_test_on_CCLE_data.sh  
 
 ### 4.5. screening drugs for TCGA patients
-$ bash Step5.3_screening_drugs_for_TCGA_patients.sh  
+$ bash Step5.2_screening_drugs_for_TCGA_patients.sh  
 
 ### 4.6. predicting CDRs of a drug  
 $ python Step6_CDR_prediction.py  
