@@ -1,4 +1,4 @@
-# TransCDR: a deep learning model for enhancing the generalizability of cancer drug response prediction through transfer learning and multimodal data fusion
+# TransCDR: a deep learning model for enhancing the generalizability of cancer drug response prediction through transfer learning and multimodal data fusion for drug representation 
 -----------------------------------------------------------------
 
 ## 1. Introduction
@@ -39,10 +39,9 @@ $ bash Step3_CV10_result.sh
 ### 4.3. Training the final TransCDR  
 $ bash Step4_Train_final_model.sh  
 
-### 4.4. test the trained TransCDR on TCGA and CCLE  
+### 4.4. test the trained TransCDR on CCLE
 The pre-trained TransCDR models are located at [https://zenodo.org/deposit/new](https://doi.org/10.5281/zenodo.7912778). You shoud download and unzip the data.7z and put it in the current directory.    
 
-$ bash Step5.1_test_on_TCGA_data.sh  
 $ bash Step5.2_test_on_CCLE_data.sh  
 
 ### 4.5. screening drugs for TCGA patients
