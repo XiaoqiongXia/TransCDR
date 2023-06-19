@@ -4,7 +4,7 @@
 ## 1. Introduction
 **TransCDR** is a Python implementation of a deep learning model for enhancing the generalizability of cancer drug response prediction through transfer learning and multimodal data fusion for drug representation. 
 
-**TransCDR** achieves state-of-the-art results of predicting CDRs in various scenarios. More importantly, **TransCDR** is shown to be effective in the external dataset: CCLE. In summary, **TransCDR** could be a powerful tool for cancer drug response.
+**TransCDR** achieves state-of-the-art results of predicting CDRs in various scenarios. More importantly, **TransCDR** is shown to be effective in the external dataset: CCLE. In summary, **TransCDR** could be a powerful tool for predicting cancer drug response.
 
 ## 2. TransCDR
 Figure 1: The overall architecture of **TransCDR** is located at image/
