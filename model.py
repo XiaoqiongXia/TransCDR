@@ -275,7 +275,7 @@ class MLP(nn.Sequential):
     def __init__(self,input_dim_gene):
         self.input_dim_gene = input_dim_gene
         hidden_dim_gene = 256
-        mlp_hidden_dims_gene = [1024, 256, 64]
+        mlp_hidden_dims_gene = [1024, 256]
         super(MLP, self).__init__()
         layer_size = len(mlp_hidden_dims_gene) + 1
         dims = [self.input_dim_gene] + mlp_hidden_dims_gene + [hidden_dim_gene]
