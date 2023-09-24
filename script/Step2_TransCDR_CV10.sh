@@ -13,6 +13,6 @@ python Step2_train_model.py \
 --drug_encoder 'None' \
 --drug_model 'sequence + graph + FP' \
 --modeldir './result/CV10' \
---seq_model 'seyonec/ChemBERTa-zinc-base-v1' \
+--seq_model 'seyonec/PubChem10M_SMILES_BPE_450k' \
 --graph_model 'gin_supervised_masking' \
 --external_dataset 'None'
